@@ -9,7 +9,6 @@ body {
   background-color: #fff;
   font-family: roboto, sans-serif;
   letter-spacing: 0.02em;
-  
 }
 
 .list {
@@ -63,8 +62,6 @@ body {
   text-align: center;
   padding-top: 192px;
   padding-bottom: 192px;
-  
-  
 }
 .navigation {
   display: flex;
@@ -72,40 +69,38 @@ body {
 .header {
   display: flex;
   align-items: center;
-  
+
   padding-top: 24px;
   padding-bottom: 24px;
 
   background-color: #fff;
-  box-shadow: 0px 2px 1px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 1px 6px rgba(46, 47, 66, 0.08);
+  box-shadow: 0px 2px 1px rgba(46, 47, 66, 0.08),
+    0px 1px 1px rgba(46, 47, 66, 0.16), 0px 1px 6px rgba(46, 47, 66, 0.08);
 }
 .contact {
   margin-left: 300px;
 }
-.contacts +.contacts {
+.contacts + .contacts {
   margin-left: 40px;
 }
 .site-nav {
   display: flex;
 }
-.item + .item{
+.item + .item {
   margin-left: 40px;
 }
 .hero-title {
   margin-top: 0;
   margin-bottom: 48px;
-  
-  
 }
 
 .about {
   display: flex;
 }
-.about li{
+.about li {
   width: 264px;
 }
 .button-hero {
-
   width: 170px;
   height: 51px;
   left: 635px;
@@ -122,14 +117,11 @@ body {
   color: #ffffff;
 }
 .about-company {
-  
-  
   background-color: #fff;
   padding-top: 120px;
   padding-bottom: 120px;
-  
 }
-.about li +li{
+.about li + li {
   margin-left: 24px;
 }
 .about-company h3 {
@@ -146,17 +138,14 @@ body {
 .What-are-we-doing {
   text-align: center;
   padding-bottom: 120px;
- 
-
 }
 .image {
   display: flex;
-
 }
-.image li{
-  border: 1px solid #E7E9FC;
+.image li {
+  border: 1px solid #e7e9fc;
 }
-.image li +li{
+.image li + li {
   margin-left: 24px;
 }
 .What-are-we-doing h2 {
@@ -171,10 +160,10 @@ body {
   text-align: center;
   margin: 0;
   padding-top: 120px;
-  background-color: #F4F4FD;
+  background-color: #f4f4fd;
   padding-bottom: 120px;
 }
-.team-list li +li{
+.team-list li + li {
   margin-left: 24px;
 }
 .team-list {
@@ -182,7 +171,8 @@ body {
 }
 .team-list li {
   background-color: #fff;
-  box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
+  box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08),
+    0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
   border-radius: 0px 0px 4px 4px;
   border-radius: 0px 0px 4px 4px;
 }
@@ -193,7 +183,6 @@ body {
   color: var(--secondary-text-color);
   margin: 0;
   margin-bottom: 72px;
-  
 }
 .team p {
   font-size: 16px;
@@ -230,7 +219,7 @@ body {
   line-height: 1, 16;
   color: #f4f4fd;
 }
-.footer p{
+.footer p {
   width: 264px;
 }
 .radio-button {
@@ -274,7 +263,7 @@ body {
   text-align: center;
   margin: 0;
   padding: 0;
-  
+
   padding-bottom: 72px;
 }
 .btn {
@@ -289,17 +278,16 @@ body {
   flex-wrap: wrap;
   padding-left: 156px;
   padding-right: 156px;
-  
 }
-.portfolio-main li{
+.portfolio-main li {
   width: 360px;
   margin-right: 24px;
   margin-bottom: 48px;
 
- 
-  box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
+  box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08),
+    0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
 }
-.portfolio-main li:nth-child(3n){
+.portfolio-main li:nth-child(3n) {
   margin-right: 0;
 }
 .container {
@@ -310,7 +298,7 @@ body {
   padding-right: 15px;
 }
 .about h3 {
- margin: 0;
+  margin: 0;
 }
 .about p {
   margin: 0;
@@ -323,15 +311,14 @@ body {
   padding-right: 15px;
 }
 .container-what-we-doing {
-  margin: 0,auto;
+  margin: 0, auto;
   width: 1158px;
   padding-left: 15px;
   padding-right: 15px;
 }
 .container-team {
   width: 1158px;
-  margin: 0,auto;
+  margin: 0, auto;
   padding-left: 15px;
   padding-right: 15px;
-
 }
