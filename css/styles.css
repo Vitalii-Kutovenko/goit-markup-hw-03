@@ -137,7 +137,7 @@ body {
 }
 .What-are-we-doing {
   text-align: center;
-  
+  padding-bottom: 120px;
 }
 .image {
   display: flex;
