@@ -123,9 +123,10 @@ body {
 }
 .about-company {
   
-  padding-left: 156px;
-  padding-right: 156px;
+  
   background-color: #fff;
+  padding-top: 120px;
+  padding-bottom: 120px;
   
 }
 .about li +li{
@@ -144,8 +145,7 @@ body {
 }
 .What-are-we-doing {
   text-align: center;
-  padding-left: 156px;
-  padding-right: 156px;
+  padding-bottom: 120px;
  
 
 }
@@ -172,8 +172,7 @@ body {
   margin: 0;
   padding-top: 120px;
   background-color: #F4F4FD;
-  padding-left: 156px;
-  padding-right: 156px;
+  padding-bottom: 120px;
 }
 .team-list li +li{
   margin-left: 24px;
@@ -306,8 +305,9 @@ body {
 .container {
   display: flex;
 
-  margin: 0;
-  padding: 0;
+  margin: 0, auto;
+  padding-left: 15px;
+  padding-right: 15px;
 }
 .about h3 {
   margin: 0;
@@ -318,14 +318,20 @@ body {
 }
 .container-about {
   width: 1158px;
-  padding-top: 120px;
+  margin: 0, auto;
+  padding-left: 15px;
+  padding-right: 15px;
 }
 .container-what-we-doing {
-  padding-top: 120px;
-  padding-bottom: 120px;
+  margin: 0,auto;
   width: 1158px;
+  padding-left: 15px;
+  padding-right: 15px;
 }
 .container-team {
   width: 1158px;
-  padding-bottom: 120px;
+  margin: 0,auto;
+  padding-left: 15px;
+  padding-right: 15px;
+
 }
