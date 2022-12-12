@@ -78,7 +78,7 @@ body {
     0px 1px 1px rgba(46, 47, 66, 0.16), 0px 1px 6px rgba(46, 47, 66, 0.08);
 }
 .contact {
-  margin-left: 300px;
+  margin-left: auto;
 }
 .contacts + .contacts {
   margin-left: 40px;
@@ -202,10 +202,6 @@ body {
 }
 .footer {
   background-color: #2e2f42;
-  padding-top: 100px;
-  padding-left: 156px;
-  padding-right: auto;
-  padding-bottom: 100px;
 }
 .logo-footer {
   text-decoration: none;
@@ -263,8 +259,9 @@ body {
   text-align: center;
   margin: 0;
   padding: 0;
+  padding-top: 96px;
 
-  padding-bottom: 72px;
+  padding-bottom: 120px;
 }
 .btn {
   margin-left: 380px;
@@ -276,8 +273,6 @@ body {
 .portfolio-main {
   display: flex;
   flex-wrap: wrap;
-  padding-left: 156px;
-  padding-right: 156px;
 }
 .portfolio-main li {
   width: 360px;
@@ -292,8 +287,8 @@ body {
 }
 .container {
   display: flex;
-
-  margin: 0, auto;
+  width: 1158px;
+  margin: 0 auto;
   padding-left: 15px;
   padding-right: 15px;
 }
@@ -304,21 +299,24 @@ body {
   margin: 0;
   margin-top: 8px;
 }
-.container-about {
+.container-footer {
   width: 1158px;
-  margin: 0, auto;
-  padding-left: 15px;
-  padding-right: 15px;
+  padding-top: 100px;
+  padding-left: 156px;
+  padding-right: auto;
+  padding-bottom: 100px;
 }
-.container-what-we-doing {
-  margin: 0, auto;
+.container-main {
+  flex-wrap: wrap;
   width: 1158px;
-  padding-left: 15px;
-  padding-right: 15px;
+  margin: 0 auto;
 }
-.container-team {
+.container-btn {
   width: 1158px;
-  margin: 0, auto;
+  margin: 0 auto;
   padding-left: 15px;
   padding-right: 15px;
+  display: flex;
+  justify-content: center;
+  margin-bottom: 72px;
 }
